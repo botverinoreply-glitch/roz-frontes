@@ -1,0 +1,9 @@
+# To enable MeloTTS and Coqui, rename this file to requirements.txt before deploying.
+--extra-index-url https://download.pytorch.org/whl/cpu
+fastapi==0.115.12
+pydantic==2.11.4
+torch==2.6.0+cpu
+torchaudio==2.6.0+cpu
+melo-tts==0.1.2
+coqui-tts==0.27.4
+soundfile
